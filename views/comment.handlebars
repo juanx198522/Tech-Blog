@@ -1,0 +1,28 @@
+<!-- Main content area -->
+<main class="container mt-5">
+  <!-- Display post title and content -->
+  <article>
+    <h1>{{title}}</h1>
+    <p>{{content}}</p>
+  </article>
+
+  <!-- Loop through comments and display each one in a styled box -->
+  {{#each comments}}
+  <p class="mb-3 border p-3" style="background-color: #aeaeae;">{{text}}</p>
+  <br>
+  {{/each}}
+
+  <!-- Display a comment form if the user is logged in -->
+  {{#if logged_in}}
+  <form class="new-comment-form" class="mb-3">
+    <div class="mb-3">
+      <label for="comment" class="form-label">Comment:</label>
+      <textarea class="form-control" id="new-comment" rows="3"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  {{/if}}
+</main>
+
+<!-- Include the comment JavaScript file -->
+<script src="/js/comment.js"></script>

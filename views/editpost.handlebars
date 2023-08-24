@@ -1,0 +1,28 @@
+<!-- Main content container -->
+<main class="container mt-5">
+  <!-- Page title -->
+  <h1 class="mb-4">Edit Post</h1>
+
+  <!-- Form for updating a chess post -->
+  <form class="update-chess-post-form" class="mb-3">
+    <!-- Input field for the post title -->
+    <div class="mb-3">
+      <label for="title-update-chess-post" class="form-label">Title</label>
+      <input type="text" class="form-control" id="update-post-title" placeholder="Enter post title" value="{{title}}" />
+    </div>
+
+    <!-- Textarea for the post content -->
+    <div class="mb-3">
+      <label for="content-update-chess-post" class="form-label">Content</label>
+      <textarea class="form-control" id="update-post-content" rows="3"
+        placeholder="Enter post content">{{content}}</textarea>
+    </div>
+
+    <!-- Button to update the post -->
+    <button id="update-post" class="btn btn-primary">Update Post</button>
+
+  </form>
+</main>
+
+<!-- JavaScript file for handling updates -->
+<script src="/js/update.js"></script>

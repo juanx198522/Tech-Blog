@@ -1,0 +1,15 @@
+<main class="container mt-5">
+  <div>
+    <!-- Iterate through each post -->
+    {{#each posts}}
+    <div class="post-container post mb-3 border p-3">
+      <!-- Post title with a link -->
+      <h2><a href="/post/{{id}}" class="text-decoration-none text-reset">{{title}}</a></h2>
+      <!-- Post content -->
+      <p>{{content}}</p>
+      <!-- Post author and creation date -->
+      <p>Posted by {{user.username}} on {{format_date createdAt}}</p>
+    </div>
+    {{/each}}
+  </div>
+</main>

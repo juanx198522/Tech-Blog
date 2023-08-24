@@ -1,0 +1,49 @@
+header,
+.project:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+.no-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  color: #1b89bc;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.no-button:hover {
+  color: #065b83;
+  text-decoration: underline;
+}
+
+.dollar-amount {
+  color: #056605;
+  font-weight: bold;
+  margin-left: -5px;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /* Adding padding around the header */
+  background-color: #2d3e50;
+}
+
+#navbar {
+  margin-right: 25px;
+  /* Adding margin between the navigation links */
+  color: white;
+}
+
+#title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #2d3e50;
+  background-color: white;
+  /* Add the border properties */
+  border: 1px solid;
+}

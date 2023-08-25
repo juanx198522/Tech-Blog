@@ -4,7 +4,8 @@
 - [Description](#description)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
-- [Mock-Up](#mock-up)
+- [Walkthrough Video Link](#walkthrough-video-link)
+- [Deployed Application Link](#deployed-application-link)
 - [Getting Started](#getting-started)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -50,9 +51,13 @@ Given a CMS-style blog site:
 
 ---
 
-### Deployed Application Link
-
+## Walkthrough Video Link
 [https://drive.google.com/file/d/13Ysyj-0igB0MKhfsLwX0VBAjAyNpT-wo/view](https://drive.google.com/file/d/13Ysyj-0igB0MKhfsLwX0VBAjAyNpT-wo/view)
+
+---
+
+## Deployed Application Link
+[https://tech-blog-app-2023-c79c738b29bd.herokuapp.com/](https://tech-blog-app-2023-c79c738b29bd.herokuapp.com/)
 
 ---
 
